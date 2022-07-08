@@ -7,16 +7,16 @@ window.onload = function () {
         })
         .then((data) => {
             let users_table = document.getElementById('users-table');
-            data.forEach(val => {
+            data.forEach(user => {
                 let tr = "<tr>" +
-                    "<td>" + val['id'] + "</td>" +
-                    "<td>" + val['name'] + "</td>" +
-                    "<td>" + val['username'] + "</td>" +
-                    "<td>" + val['email'] + "</td>" +
-                    "<td>" + val['address']['street'] + "</td>" +
-                    "<td>" + val['address']['city'] + "</td>" +
-                    "<td>" + val['phone'] + "</td>" +
-                    "<td>" + val['website'] + "</td>" +
+                    "<td>" + user['id'] + "</td>" +
+                    "<td>" + user['name'] + "</td>" +
+                    "<td>" + user['username'] + "</td>" +
+                    "<td>" + user['email'] + "</td>" +
+                    "<td>" + user['address']['street'] + "</td>" +
+                    "<td>" + user['address']['city'] + "</td>" +
+                    "<td>" + user['phone'] + "</td>" +
+                    "<td>" + user['website'] + "</td>" +
                     "</tr>"
                 users_table.innerHTML += tr
             });
