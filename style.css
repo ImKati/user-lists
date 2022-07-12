@@ -17,7 +17,27 @@ body{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    background: #339833;
+    background: #e08b8b;
     height: 550px;
 }
+
+h2{
+    border: 1px solid silver;
+    font-family: sans-serif;
+    text-align: center;
+    border-spacing: 5px;
+    border-collapse: separate;
+    color: black;
+    position: absolute;
+    background: #d3aeae;
+    top: 26%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 1090px;
+    height: 40px;
+
+}
+
+
 
