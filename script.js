@@ -1,6 +1,6 @@
 window.onload = function () {
     let users_table_div = document.getElementById('users-table-div');
-    users_table_div.innerHTML += "<table id = 'users-table''>";
+    users_table_div.innerHTML += "<table id = 'users-table'>";
     fetch('https://jsonplaceholder.typicode.com/users')
         .then((response) => {
             return response.json();
