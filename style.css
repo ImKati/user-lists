@@ -2,7 +2,7 @@ body{
     display: flex;
     margin: auto 0;
     width: 90%;
-    background: burlywood;
+    background: #d5c6cb;
 }
 
 #users-table{
@@ -21,7 +21,15 @@ body{
     height: 550px;
 }
 
+th{
+    background-color: #1c1b1b;
+    color: #e08b8b;
 
+}
+
+tr:hover{
+    background-color: #9d2828;
+}
 
 
 
